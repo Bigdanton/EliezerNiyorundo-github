@@ -16,7 +16,7 @@ body {
 .header {
   position: fixed;
   margin-bottom: 4%;
-  margin-top: 8%;
+  margin-top: 0%;
   margin-left: 8%;
   margin-right: 0%;
   display: flex;
@@ -84,6 +84,7 @@ body {
 }
 
 .input-field {
+  position: absolute;
   margin: 4px;
   color: azure;
   background-color: beige;
@@ -92,17 +93,20 @@ body {
   width: 43%;
   text-align: center;
   align-items: center;
+  margin-top: 20%;
+  left: 30%;
 }
 
 .btn1 {
   color: greenyellow;
-  padding: 0;
+  padding-left: 3%;
   border: solid 4px blue;
   border-radius: 1px;
   width: 30%;
   text-align: center;
   align-items: center;
   font-size: medium;
+  margin-top: 25%;
 }
 
 .image1 {
@@ -114,6 +118,8 @@ body {
 
 .btn-content {
   padding-left: 40px;
+  padding-right: 0%;
+  margin-left: 35%;
 }
 
 .png {
@@ -122,6 +128,36 @@ body {
   clip-path: circle(45%);
 }
 
-h3 {
-  color: white;
+.projectpages {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.projectpages img {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .projectpages {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* @media screen and (min-width: 500px) {
+  .projectpages {
+    grid-template-columns: 1fr;
+  }
+} */
+
+@media screen and (min-width: 300px) {
+  .projectpages {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.future {
+  display: inline-block;
+}
+.mobile {
+  padding-top: 20%;
+  margin-left: 40%;
 }
