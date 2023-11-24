@@ -1,0 +1,198 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: popins sans-serif;
+}
+
+body {
+  background: black;
+}
+body {
+  position: flex;
+  align-items: center;
+}
+
+.header {
+  position: fixed;
+  margin-bottom: 4%;
+  margin-top: 0%;
+  margin-left: 8%;
+  margin-right: 0%;
+  display: flex;
+  background: chocolate;
+  align-items: center;
+  font-weight: 100;
+  height: 400;
+  justify-content: space-between;
+}
+
+.logo {
+  position: absolute;
+  padding-top: 40;
+  margin-left: 50;
+  padding-bottom: 20;
+  color: blue;
+}
+
+.navbar a {
+  font: size 25px;
+  color: rgba(255, 255, 255, 0.742);
+  text-decoration: none;
+  font-weight: 500px;
+  margin-left: 70px;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  align-items: center;
+  padding: 20%;
+}
+
+.home-content {
+  position: fixed;
+  padding-left: 0%;
+  color: green;
+  animation-name: myslide;
+  animation-duration: 10s;
+}
+
+.image {
+  width: 150%;
+  height: 120%;
+  margin-bottom: 50%;
+  display: block;
+  animation: move;
+  animation-duration: 10s;
+}
+
+.image img {
+  height: 90%;
+  width: 20%;
+  display: block;
+  margin: auto;
+  top: 120%;
+}
+
+.home a {
+  padding-top: 10px 18px;
+  font-weight: bold;
+  color: red;
+}
+
+.btn {
+  position: absolute;
+  background-color: green;
+}
+
+.input-field {
+  position: absolute;
+  margin: 4px;
+  color: azure;
+  background-color: beige;
+  border: solid 3px green;
+  border-radius: 4px;
+  width: 43%;
+  text-align: center;
+  align-items: center;
+  margin-top: 20%;
+  left: 30%;
+}
+
+.btn1 {
+  color: greenyellow;
+  padding-left: 3%;
+  border: solid 4px blue;
+  border-radius: 1px;
+  width: 30%;
+  text-align: center;
+  align-items: center;
+  font-size: medium;
+  margin-top: 25%;
+}
+
+.image1 {
+  border: solid 7px;
+  border-radius: 3px;
+  width: 25%;
+  height: 20%;
+}
+
+.btn-content {
+  padding-left: 40px;
+  padding-right: 0%;
+  margin-left: 35%;
+}
+
+.png {
+  width: 300px;
+  height: 100px;
+  clip-path: circle(45%);
+}
+
+.projectpages {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.projectpages img {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .projectpages {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+<<<<<<< HEAD:css/styles.css
+@media screen and (min-width: 500px) {
+  .projectpages {
+    grid-template-columns: 1fr;
+  }
+}
+=======
+/* @media screen and (min-width: 500px) {
+  .projectpages {
+    grid-template-columns: 1fr;
+  }
+} */
+>>>>>>> 04aefa767803f0555b345147d61a69b902484fa9:styles.css
+
+@media screen and (min-width: 300px) {
+  .projectpages {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.future {
+  display: inline-block;
+}
+.mobile {
+  padding-top: 20%;
+  margin-left: 40%;
+<<<<<<< HEAD:css/styles.css
+}
+
+/* keyframes */
+
+@keyframes move {
+  25% {
+    transform: scale(2);
+  }
+  50% {
+    transform-origin: scale(2);
+  }
+}
+
+@keyframes myslide {
+  from {
+    margin-left: 30%;
+  }
+  to {
+    margin-left: 0%;
+  }
+=======
+>>>>>>> 04aefa767803f0555b345147d61a69b902484fa9:styles.css
+}
